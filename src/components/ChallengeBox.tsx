@@ -1,28 +1,47 @@
+import { ChallengesContext } from '../contexts/ChallengesContext';
 import styles from '../styles/components/ChallengeBox.module.css';
+import { useContext } from 'react';
+import { CountdownContext } from '../contexts/CountdownContext';
 
 export function ChallengeBox() {
-    const hasActiveChallenge = true;
+    const { activeChallenge, resetChallenge, completeChallenge } = useContext(ChallengesContext);
+    const { resetCountdown } = useContext(CountdownContext);
+
+    function hadleChallengeSucceed(){
+        completeChallenge();
+        resetCountdown();
+
+    }
+
+    function handleChallengeFailed() {
+        resetChallenge();
+
+    }
+    
     return (
         <div className={styles.challengeBoxContainer}>
-            { hasActiveChallenge ? (
+            { activeChallenge ? (
                 <div className={styles.challengeActive}>
-                    <header>Ganhe 400 xp</header>
+                    <header>Ganhe {activeChallenge.amount} xp</header>
                   
                     <main>
-                        <img src="icons/body.svg" />
+                        <img src={`icons/${activeChallenge.type}.svg`} />
                         <strong>Novo Desafio</strong>
-                        <p>Levante e faça uma caminhada de 3 minutos. </p>
+                        <p>{activeChallenge.description}</p>
                     </main>
+                   
                     <footer>
                         <button
                             type="button"
                             className={styles.challengeFailedButton}
+                            onClick={handleChallengeFailed}
                         >
                             Falhei
                                </button>
                         <button
                             type="button"
                             className={styles.challengeSucceededButton}
+                            onClick={hadleChallengeSucceed}
                         >
                             Completei
                                    </button>
