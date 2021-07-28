@@ -5,8 +5,9 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Demo: Deploy">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-Contatos">Contatos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
 </p>
 
@@ -47,9 +48,7 @@ O Mkmoveit é um app que une a técnica de Pomodoro com a realização de exerc�
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
-## :iphone: Demo
-
-### Deploy
+## :iphone: Demo: Deploy
 
 A aplicação Web poderá ser acessada aqui:https://mkmoveit.vercel.app/
 
