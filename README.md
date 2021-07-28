@@ -24,13 +24,13 @@
 <br>
 
 <p align="center">
-  # *Web
-  <img alt="Happy" src=".github/mkmoveit.png" width="100%">
+  # *Web*
+  <img alt="Happy" src=".github/mkmoveit.png" width="70%">
 </p>
 
 <p align="center">
-  # *Mobile
-  <img alt="mobile" src=".github/mobilemkmoveit.png" width="50%">
+  # *Mobile*
+  <img alt="mobile" src=".github/mobilemkmoveit.png" width="30%">
 </p>
 
 ## ✨ Tecnologias
