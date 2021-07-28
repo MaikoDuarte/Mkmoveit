@@ -30,7 +30,7 @@
 
 <p align="center">
   # *Mobile
-  <img alt="mobile" src=".github/mobilemkmoveit.png" width="100%">
+  <img alt="mobile" src=".github/mobilemkmoveit.png" width="50%">
 </p>
 
 ## ✨ Tecnologias
