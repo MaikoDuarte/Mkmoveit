@@ -47,6 +47,12 @@ O Mkmoveit é um app que une a técnica de Pomodoro com a realização de exerc�
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
+## :iphone: Demo
+
+### Deploy
+
+A aplicação Web poderá ser acessada aqui:https://mkmoveit.vercel.app/
+
 ## 📄 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
@@ -55,5 +61,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ## :mailbox_with_no_mail: Contatos
 
-Email: maiko.akagui.duarte@gmail.com
+Email: maiko.akagui.duarte@gmail.com <br>
 Linkedin: www.linkedin.com/in/maiko-akagui-duarte-253649129
