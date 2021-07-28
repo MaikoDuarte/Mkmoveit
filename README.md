@@ -53,11 +53,6 @@ Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navega
 
 A aplicação Web poderá ser acessada aqui:https://mkmoveit.vercel.app/
 
-## 📄 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
 
 ## :mailbox_with_no_mail: Contatos
 
